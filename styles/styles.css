@@ -1,0 +1,9 @@
+.bg-image {
+    background-image: url(../assets/news-letter-bg.png);
+}
+@media screen and (max-width:576px) {
+    .bg-image {
+        background-size: cover;
+    }
+    
+}

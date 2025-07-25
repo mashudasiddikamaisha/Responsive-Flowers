@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Responsive Flowers</title>
 </head>
 <body>
-    
+    <header class="justify-center items-center">
+        <nav class="w-[1140px] h-[71px] items-center px-[150px] mt-[30px]" >
+            <div class="flex justify-between items-center">
+                <div class="w-[135px] h-[82px]">
+                    <img src="assets/logo.png" alt="">
+                </div>
+                <div class="w-[415px] h-[60px] items-center flex">
+                    <ul class="flex space-x-12 text-base">
+                        <li><a class="hidden lg:block lg:text-[#252432] lg:font-bold" href="">Home</a></li>
+                        <li><a class="hidden lg:block lg:text-[#8987A1]" href="">Shop</a></li>
+                        <li><a class="hidden lg:block lg:text-[#8987A1]" href="">About us</a></li>
+                        <img class="h-[24px] w-[24px]" src="assets/shopping-cart.png" alt="">
+                        <li><a class="text-[#000000]" href="">Cart ($56)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>
